@@ -1,0 +1,29 @@
+.row {
+  border: solid;
+  border-width: 1;
+  border-color: black;
+
+
+}
+
+
+.cards {
+
+  display: flex;
+  // justify-content:center;
+  justify-items: center;
+  height: 150px;
+  width: 150px;
+  border: solid;
+  border-width: 1;
+  border-color: black;
+
+}
+
+
+.cards .img {
+
+  width: 30px;
+  height: 30px;
+
+}

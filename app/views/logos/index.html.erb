@@ -1,0 +1,25 @@
+<h1>Test creation row et col</h1>
+
+<div class="container">
+
+  <div class="row">
+    <% @logos.each do |logo| %>
+      <div class="col-4">
+        <div class="cards">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/1200px-Google_%22G%22_Logo.svg.png" alt="Le Wagon logo">
+          <div class="cards-infos">
+            <%= logo.name %>
+          </div>
+        </div>
+      </div>
+    <% end  %>
+  </div>
+
+
+
+
+
+
+
+
+</div>
